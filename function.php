@@ -35,7 +35,7 @@ function my_jobs_taxonomy () {
 
 add_action ('init', 'my_jobs_taxonomy');
 
-// ADd tags to custom posts
+// Add tags to custom posts
 function my_jobs_taxonomy_tags () {
     $args = array (
         'labels' => array (
